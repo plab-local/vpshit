@@ -1,0 +1,10 @@
+[package]
+name = "vpshit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.8.4"
+reqwest = { version = "0.12.22", features = ["json"] }
+tokio = { version = "1.47.0", features = ["full"] }
+hyper = { version = "1.0", features = ["full"] }
